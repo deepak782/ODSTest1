@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button1"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Button2"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="button3"
+        android:layout_margin="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN PAGE"
+        android:background="#cf2"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="LOGIN PAGE"
+        android:gravity="center"
+        android:background="#ff0"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:background="#080"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="LOGIN PAGE"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:layout_gravity="center"
+        android:hint="name"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="#ff0"
+        android:hint="mobile"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#efefef"
+        android:hint="Description"
+        android:layout_margin="10dp"
+        android:gravity="top|left"
+        android:padding="10dp"/>
+
+</LinearLayout>
